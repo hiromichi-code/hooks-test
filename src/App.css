@@ -12,8 +12,8 @@
   border-right: 1px solid;
   border-top: 1px solid;
   border-left: 1px solid;
-  margin-bottom: -1.1px;
   border-bottom: 1px solid;
+  margin-bottom: -1.1px;
 }
 
 .btn1:focus,
@@ -23,19 +23,23 @@
   outline: none;
 }
 
-.btn2 {
+.btn2,
+.btn3 {
   height: 48px;
   background-color: #fff;
   border-right: 1px solid;
   border-top: 1px solid;
   border-left: transparent;
-  margin-bottom: -1.1px;
   border-bottom: 1px solid;
+  margin-bottom: -1.1px;
 }
 
 .btn2:focus,
 .btn2 :active,
-.btn2 :hover {
+.btn2 :hover,
+.btn3:focus,
+.btn3 :active,
+.btn3 :hover {
   border-bottom: transparent;
   outline: none;
 }

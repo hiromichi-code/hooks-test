@@ -1,4 +1,4 @@
-const Vegetables = () => {
+const Country = () => {
   const list = {
     listStyle: "none",
     margin: "0",
@@ -11,14 +11,14 @@ const Vegetables = () => {
   return (
     <div style={bd}>
       <ul style={list}>
-        <li>とまと</li>
-        <li>かぼちゃ</li>
-        <li>大根</li>
-        <li>スイカ</li>
-        <li>さつまいも</li>
+        <li>日本</li>
+        <li>アメリカ</li>
+        <li>中国</li>
+        <li>イギリス</li>
+        <li>インド</li>
       </ul>
     </div>
   );
 };
 
-export default Vegetables;
+export default Country;
