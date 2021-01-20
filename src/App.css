@@ -1,0 +1,42 @@
+.center {
+  text-align: center;
+}
+
+.m {
+  margin: 32px 0 0 0;
+}
+
+.btn1 {
+  height: 48px;
+  background-color: #fff;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  margin-bottom: -1.1px;
+  border-bottom: 1px solid;
+}
+
+.btn1:focus,
+.btn1 :active,
+.btn1 :hover {
+  border-bottom: transparent;
+  outline: none;
+}
+
+.btn2 {
+  height: 48px;
+  background-color: #fff;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-left: transparent;
+  margin-bottom: -1.1px;
+  border-bottom: 1px solid;
+}
+
+.btn2:focus,
+.btn2 :active,
+.btn2 :hover {
+  border-bottom: transparent;
+  outline: none;
+}
+/*# sourceMappingURL=App.css.map */

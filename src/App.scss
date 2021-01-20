@@ -1,0 +1,36 @@
+.center {
+  text-align: center;
+}
+.m {
+  margin: 32px 0 0 0;
+}
+.btn1 {
+  height: 48px;
+  background-color: #fff;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  margin-bottom: -1.1px;
+  border-bottom: 1px solid;
+  &:focus,
+  :active,
+  :hover {
+    border-bottom: transparent;
+    outline: none;
+  }
+}
+.btn2 {
+  height: 48px;
+  background-color: #fff;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-left: transparent;
+  margin-bottom: -1.1px;
+  border-bottom: 1px solid;
+  &:focus,
+  :active,
+  :hover {
+    border-bottom: transparent;
+    outline: none;
+  }
+}
